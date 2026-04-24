@@ -28,7 +28,7 @@ export const metadata = {
     images: ["/MUJinny-Logo.png"],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/MUJinny-Logo.png",
   },
 };
 
