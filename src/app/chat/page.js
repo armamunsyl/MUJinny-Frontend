@@ -274,6 +274,11 @@ export default function ChatPage() {
     useEffect(() => {
         if (user) {
             fetchConversations();
+            setAnonConversations([]);
+            try {
+                localStorage.removeItem('mujinny_anon_chats');
+                localStorage.removeItem('mujinny_anon_id');
+            } catch {}
         } else if (!userLoading) {
             setConversations([]);
         }
