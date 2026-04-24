@@ -898,14 +898,14 @@ export default function ChatPage() {
                                         <div className="px-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-slate-500">Recent Chats</div>
                                     </div>
                                     <div className="app-scrollbar mt-2 h-full space-y-0.5 overflow-y-auto pr-1">
-                                    {historyLoading ? (
+                                    {(userLoading || historyLoading) ? (
                                         <div className="flex items-center justify-center py-6">
                                             <div className="h-4 w-4 animate-spin rounded-full border-2 border-slate-600 border-t-slate-300" />
                                         </div>
-                                    ) : (user ? recentConversations : anonConversations).length === 0 && (
+                                    ) : (user ? recentConversations : anonConversations).length === 0 ? (
                                         <p className="px-2 pt-1 text-[11px] text-slate-600">Your conversations will appear here.</p>
-                                    )}
-                                        {user ? recentConversations.map((conversation, index) => (
+                                    ) : null}
+                                        {!userLoading && !historyLoading && user ? recentConversations.map((conversation, index) => (
                                             <div
                                                 key={conversation._id || index}
                                                 className={`group relative flex items-center rounded-lg transition ${conversation._id === activeConversationId ? 'bg-white/6' : 'hover:bg-white/5'}`}
@@ -953,7 +953,7 @@ export default function ChatPage() {
                                                     </>
                                                 )}
                                             </div>
-                                        )) : anonConversations.map((conversation, index) => (
+                                        )) : !userLoading && anonConversations.map((conversation, index) => (
                                             <div
                                                 key={conversation.id}
                                                 className={`group relative flex items-center rounded-lg transition ${conversation.id === activeAnonConversationId ? 'bg-white/6' : 'hover:bg-white/5'}`}
