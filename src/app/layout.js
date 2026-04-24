@@ -28,7 +28,7 @@ export const metadata = {
     images: ["/MUJinny-Logo.png"],
   },
   icons: {
-    icon: "/MUJinny-Logo.png",
+    icon: "/icon.png",
   },
 };
 
