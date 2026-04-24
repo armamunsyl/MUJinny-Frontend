@@ -376,6 +376,7 @@ export default function ChatPage() {
 
     const fetchConversations = async () => {
         if (!auth.currentUser) return;
+        setConversations([]);
         setHistoryLoading(true);
         try {
             const token = await auth.currentUser.getIdToken();
