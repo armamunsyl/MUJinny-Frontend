@@ -20,6 +20,23 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Code Runner Prerequisite
+
+The in-chat code runner requires Docker Desktop in local development.
+
+1. Install Docker Desktop for macOS.
+2. Open Docker Desktop and wait until it shows as running.
+3. Verify Docker works:
+
+```bash
+docker --version
+docker ps
+```
+
+4. Restart the backend after Docker is ready.
+
+If Docker is missing or the daemon is not running, the backend will disable code execution and the Run button will stay unavailable.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

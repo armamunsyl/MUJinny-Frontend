@@ -1,26 +1,351 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-sans: "Inter", "Poppins", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, monospace;
+  --page-bg: #f8fafc;
+  --sidebar-bg: #ffffff;
+  --surface-bg: #ffffff;
+  --surface-muted: #f1f5f9;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --brand-primary: #1e3a8a;
+  --brand-secondary: #3b82f6;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: var(--text-primary);
+  background: var(--page-bg);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.18);
+  color: var(--text-primary);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.45);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.7);
+}
+
+.app-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.contentColumn {
+  width: 100%;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (max-width: 640px) {
+  .contentColumn {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@keyframes heroRotatingLine {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+    filter: blur(8px);
+  }
+  18% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  78% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-18px);
+    filter: blur(8px);
+  }
+}
+
+.hero-rotating-line {
+  display: inline-block;
+  min-height: 1.15em;
+  animation: heroRotatingLine 2.6s ease-in-out;
+}
+
+.chat-markdown {
+  color: inherit;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.75;
+}
+
+.chat-markdown>*:first-child {
+  margin-top: 0;
+}
+
+.chat-markdown>*:last-child {
+  margin-bottom: 0;
+}
+
+.chat-markdown p,
+.chat-markdown ul,
+.chat-markdown ol,
+.chat-markdown table,
+.chat-markdown blockquote {
+  margin: 0 0 0.75rem;
+}
+
+.chat-markdown h1,
+.chat-markdown h2,
+.chat-markdown h3,
+.chat-markdown h4 {
+  margin: 1rem 0 0.5rem;
+  color: inherit;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.chat-markdown h1 {
+  font-size: 1.55rem;
+}
+
+.chat-markdown h2 {
+  font-size: 1.35rem;
+}
+
+.chat-markdown h3 {
+  font-size: 1.18rem;
+}
+
+.chat-markdown h4 {
+  font-size: 1.05rem;
+}
+
+.chat-markdown ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.chat-markdown ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+/* nested list variants */
+.chat-markdown ul ul {
+  list-style: circle;
+  margin: 0.25rem 0;
+}
+
+.chat-markdown ol ol {
+  list-style: lower-alpha;
+  margin: 0.25rem 0;
+}
+
+.chat-markdown ul ol {
+  list-style: decimal;
+  margin: 0.25rem 0;
+}
+
+.chat-markdown ol ul {
+  list-style: disc;
+  margin: 0.25rem 0;
+}
+
+.chat-markdown li {
+  margin: 0.25rem 0;
+  line-height: 1.65;
+}
+
+.chat-markdown li>p {
+  margin: 0;
+}
+
+.chat-markdown a {
+  color: #93c5fd;
+  text-decoration: underline;
+  text-decoration-color: rgba(147, 197, 253, 0.45);
+  text-underline-offset: 0.18em;
+}
+
+.chat-markdown strong {
+  color: inherit;
+  font-weight: 600;
+}
+
+.chat-markdown blockquote {
+  border-left: 2px solid rgba(148, 163, 184, 0.3);
+  padding-left: 0.875rem;
+  color: rgba(226, 232, 240, 0.86);
+}
+
+.chat-markdown :where(p, li, td, th, blockquote) code {
+  border-radius: 0.45rem;
+  background: rgba(15, 23, 42, 0.95);
+  padding: 0.15rem 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  color: #e2e8f0;
+}
+
+.chat-markdown pre {
+  margin: 0;
+  max-width: 100%;
+}
+
+.chat-markdown pre code {
+  display: block;
+  min-width: max-content;
+  background: transparent;
+  padding: 0;
+  font-family: var(--font-mono);
+  color: #e2e8f0;
+}
+
+.chat-markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.chat-markdown th,
+.chat-markdown td {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+}
+
+.chat-markdown th {
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.chat-markdown .hljs {
+  background: transparent;
+  color: #e2e8f0;
+}
+
+.chat-markdown .hljs-comment,
+.chat-markdown .hljs-quote {
+  color: #94a3b8;
+}
+
+.chat-markdown .hljs-keyword,
+.chat-markdown .hljs-selector-tag,
+.chat-markdown .hljs-literal,
+.chat-markdown .hljs-section,
+.chat-markdown .hljs-link {
+  color: #93c5fd;
+}
+
+.chat-markdown .hljs-string,
+.chat-markdown .hljs-title,
+.chat-markdown .hljs-name,
+.chat-markdown .hljs-attribute,
+.chat-markdown .hljs-symbol,
+.chat-markdown .hljs-bullet,
+.chat-markdown .hljs-addition {
+  color: #86efac;
+}
+
+.chat-markdown .hljs-number,
+.chat-markdown .hljs-meta,
+.chat-markdown .hljs-variable,
+.chat-markdown .hljs-template-variable,
+.chat-markdown .hljs-selector-class,
+.chat-markdown .hljs-selector-attr,
+.chat-markdown .hljs-type {
+  color: #fbbf24;
+}
+
+.chat-markdown .hljs-function,
+.chat-markdown .hljs-built_in,
+.chat-markdown .hljs-title.function_ {
+  color: #c4b5fd;
+}
+
+.chat-markdown .hljs-emphasis {
+  font-style: italic;
+}
+
+.chat-markdown .hljs-strong {
+  font-weight: 700;
+}
+
+.chat-markdown-inverse a {
+  color: #dbeafe;
+  text-decoration-color: rgba(219, 234, 254, 0.55);
+}
+
+.chat-markdown-inverse blockquote {
+  border-left-color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.chat-markdown-inverse :where(p, li, td, th, blockquote) code {
+  background: rgba(15, 23, 42, 0.32);
+  color: #f8fafc;
+}
+
+.chat-markdown-justify {
+  text-align: justify;
+  text-justify: inter-word;
 }
