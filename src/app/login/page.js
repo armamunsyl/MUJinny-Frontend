@@ -23,7 +23,20 @@ export default function LoginPage() {
             router.push('/chat');
         } catch (err) {
             console.error(err);
-            setError(err.message || 'Failed to login. Please check your credentials.');
+            const code = err?.code || '';
+            if (code === 'auth/invalid-credential' || code === 'auth/wrong-password' || code === 'auth/user-not-found') {
+                setError('Email or password is incorrect. Please try again.');
+            } else if (code === 'auth/invalid-email') {
+                setError('Please enter a valid email address.');
+            } else if (code === 'auth/user-disabled') {
+                setError('This account has been disabled. Please contact support.');
+            } else if (code === 'auth/too-many-requests') {
+                setError('Too many failed attempts. Please wait a few minutes and try again.');
+            } else if (code === 'auth/network-request-failed') {
+                setError('Network error. Please check your internet connection.');
+            } else {
+                setError('Something went wrong. Please try again.');
+            }
         } finally {
             setLoading(false);
         }

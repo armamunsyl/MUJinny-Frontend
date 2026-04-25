@@ -169,7 +169,18 @@ export default function RegisterPage() {
             router.push('/chat');
         } catch (err) {
             console.error(err);
-            setError(err.message || 'Failed to register account.');
+            const code = err?.code || '';
+            if (code === 'auth/email-already-in-use') {
+                setError('An account with this email already exists. Try logging in instead.');
+            } else if (code === 'auth/invalid-email') {
+                setError('Please enter a valid email address.');
+            } else if (code === 'auth/weak-password') {
+                setError('Password is too weak. Please choose a stronger password.');
+            } else if (code === 'auth/network-request-failed') {
+                setError('Network error. Please check your internet connection.');
+            } else {
+                setError('Something went wrong. Please try again.');
+            }
         } finally {
             setLoading(false);
         }

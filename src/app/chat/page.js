@@ -426,12 +426,12 @@ export default function ChatPage() {
 
     const buildRequestErrorMessage = (error) => {
         if (error?.name === 'TypeError') {
-            return 'Backend server unreachable. Make sure the API server is running on port 8000.';
+            return 'Unable to reach the server. The server may be starting up — please wait a moment and try again.';
         }
         if (error instanceof Error && error.message) {
             return error.message;
         }
-        return 'Something went wrong while sending the message.';
+        return 'Something went wrong. Please try again.';
     };
 
     const handlePdfExport = async (userText, userMessageId) => {

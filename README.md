@@ -1,53 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MUJinny — AI Assistant for Metropolitan University Students
 
-## Getting Started
+> A production-grade AI chat platform built exclusively for MU students — featuring real-time streaming, multi-model support, code execution, PDF analysis, and an admin intelligence dashboard.
 
-First, run the development server:
+**Live:** [mujinny.com](https://mujinny.com)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Overview
+
+MUJinny is a full-stack AI assistant platform designed for the academic environment of Metropolitan University, Bangladesh. It combines large language model capabilities with university-specific context — providing students a powerful tool for studying, writing, research, and problem-solving within a familiar, secure environment.
+
+The system enforces student identity through a structured registration flow (student ID, batch, section) and gives administrators full visibility into platform usage through a real-time analytics dashboard.
+
+---
+
+## Key Features
+
+### AI Chat
+- Multi-model support — `GPT-4o`, `GPT-4o mini`, `o3-mini`, and a smart `Auto` routing mode
+- Real-time token streaming via Server-Sent Events
+- Conversation history with persistent storage per user
+- Markdown rendering with syntax-highlighted code blocks
+- Anonymous guest mode with local session persistence
+
+### Code Execution
+- Sandboxed code runner supporting Python, JavaScript, C++, Java, and more
+- Docker-isolated execution environment for security
+
+### Document Intelligence
+- PDF upload and analysis — ask questions directly about uploaded documents
+- Multi-file context support within a single conversation
+
+### Web & Research Tools
+- Live web search integration
+- Wikipedia knowledge retrieval
+- Faculty information lookup via structured university data
+
+### Admin Dashboard
+- Real-time token usage analytics per user, per batch, per model
+- Daily usage charts (14-day rolling window)
+- Donut charts for batch-wise user distribution and token consumption
+- User management with detailed profile modals
+- Role-based access control (admin vs. student)
+
+### Authentication & Identity
+- Firebase Authentication — email/password with secure token flow
+- Structured student registration — student ID (9-digit OTP-style input), batch, section, gender
+- Backend user sync with MongoDB on every login
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 16 (App Router), React 19, Tailwind CSS v4 |
+| Backend | Node.js, Express.js |
+| Database | MongoDB with Mongoose |
+| Auth | Firebase Authentication + Firebase Admin SDK |
+| AI | OpenAI API (GPT-4o, o3-mini) with streaming |
+| Code Runner | Docker-isolated sandbox |
+| Deployment | Vercel (frontend) · Render (backend) |
+
+---
+
+## Architecture
+
+```
+mujinny.com                          mugpt-api.onrender.com
+┌─────────────────────┐              ┌──────────────────────────┐
+│  Next.js Frontend   │ ──HTTPS──▶  │   Express.js Backend     │
+│                     │              │                          │
+│  ├─ /chat           │              │  ├─ /api/chat (SSE)      │
+│  ├─ /register       │              │  ├─ /api/conversations   │
+│  ├─ /login          │              │  ├─ /api/auth            │
+│  └─ /admin          │              │  ├─ /api/run             │
+│                     │              │  ├─ /api/pdf             │
+└─────────────────────┘              │  └─ /api/admin           │
+                                     └──────────┬───────────────┘
+                                                │
+                                     ┌──────────▼───────────────┐
+                                     │  MongoDB Atlas           │
+                                     │  Firebase Auth           │
+                                     │  OpenAI API              │
+                                     └──────────────────────────┘
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Product Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Chat Interface | Admin Dashboard |
+|---|---|
+| Multi-model AI chat with streaming | Real-time usage analytics |
 
-## Code Runner Prerequisite
+---
 
-The in-chat code runner requires Docker Desktop in local development.
+## Engineering Highlights
 
-1. Install Docker Desktop for macOS.
-2. Open Docker Desktop and wait until it shows as running.
-3. Verify Docker works:
+- **Token accounting** — every AI response atomically increments a `totalTokens` counter on the User document via MongoDB `$inc`, enabling O(1) per-user token lookup without aggregation at read time
+- **Streaming architecture** — responses are streamed token-by-token over SSE, with chunk buffering and graceful error recovery
+- **Anonymous → authenticated transition** — guest sessions persist in localStorage; on login, server history loads seamlessly and local state is purged
+- **Rate limiting** — per-model daily token quotas enforced server-side with per-user tracking
+- **Admin security** — separate admin login with role verification middleware; all admin routes protected behind Firebase token + role check
 
-```bash
-docker --version
-docker ps
+---
+
+## Repository Structure
+
+```
+├── frontend/          # Next.js application
+│   └── src/
+│       ├── app/       # App Router pages (chat, admin, login, register)
+│       ├── components/# Reusable UI components
+│       └── lib/       # Firebase client, auth helpers
+│
+└── backend/           # Express.js API server
+    ├── routes/        # API route handlers
+    ├── controllers/   # Business logic
+    ├── models/        # Mongoose schemas
+    ├── middleware/     # Auth, admin verification
+    └── services/      # Code runner, external APIs
 ```
 
-4. Restart the backend after Docker is ready.
+---
 
-If Docker is missing or the daemon is not running, the backend will disable code execution and the Run button will stay unavailable.
+## Author
 
-## Learn More
+Built by **Abdur Rahman Mamun**
+Metropolitan University, Bangladesh
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Live Demo](https://img.shields.io/badge/Live-mujinny.com-blue?style=flat-square)](https://mujinny.com)
