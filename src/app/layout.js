@@ -8,11 +8,11 @@ export const metadata = {
   openGraph: {
     title: "MUJinny — AI Assistant for MU Students",
     description: "MUJinny is an AI-powered conversational assistant built for Metropolitan University students.",
-    url: "https://mujinny.vercel.app",
+    url: "https://mujinny.com",
     siteName: "MUJinny",
     images: [
       {
-        url: "/MUJinny-Logo.png",
+        url: "https://mujinny.com/MUJinny-Logo.png",
         width: 1200,
         height: 630,
         alt: "MUJinny Logo",
@@ -25,7 +25,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MUJinny — AI Assistant for MU Students",
     description: "MUJinny is an AI-powered conversational assistant built for Metropolitan University students.",
-    images: ["/MUJinny-Logo.png"],
+    images: ["https://mujinny.com/MUJinny-Logo.png"],
   },
   icons: {
     icon: "/icon.png",
