@@ -12,7 +12,7 @@ export const metadata = {
     siteName: "MUJinny",
     images: [
       {
-        url: "https://mujinny.com/MUJinny-Logo.png",
+        url: "https://mujinny.com/mujinny-img.png",
         width: 1200,
         height: 630,
         alt: "MUJinny Logo",
@@ -25,7 +25,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MUJinny — AI Assistant for MU Students",
     description: "MUJinny is an AI-powered conversational assistant built for Metropolitan University students.",
-    images: ["https://mujinny.com/MUJinny-Logo.png"],
+    images: ["https://mujinny.com/mujinny-img.png"],
   },
   icons: {
     icon: "/icon.png",
