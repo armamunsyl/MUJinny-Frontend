@@ -579,15 +579,31 @@ export default function ChatPage() {
             if (token) headers['Authorization'] = `Bearer ${token}`;
             else if (anonId) headers['X-Anon-Id'] = anonId;
 
-            const chatRes = await fetch(`${API_URL}/api/chat`, {
-                method: 'POST',
-                headers,
-                body: JSON.stringify({
-                    conversationId: activeConversationId,
-                    messages: [...previousMessagesForApi, { messageId: userMessageId, role: 'user', content: apiContent }],
-                    model: selectedModel,
-                }),
+            const requestBody = JSON.stringify({
+                conversationId: activeConversationId,
+                messages: [...previousMessagesForApi, { messageId: userMessageId, role: 'user', content: apiContent }],
+                model: selectedModel,
             });
+
+            let chatRes;
+            const MAX_ATTEMPTS = 3;
+            for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+                try {
+                    chatRes = await fetch(`${API_URL}/api/chat`, { method: 'POST', headers, body: requestBody });
+                    break;
+                } catch (fetchErr) {
+                    if (fetchErr?.name !== 'TypeError' || attempt === MAX_ATTEMPTS) throw fetchErr;
+                    const waitSecs = attempt === 1 ? 8 : 12;
+                    for (let s = waitSecs; s > 0; s--) {
+                        setMessages((prev) => {
+                            const updated = [...prev];
+                            updated[updated.length - 1] = { role: 'ai', content: `Server is starting up — retrying in ${s}s... (attempt ${attempt}/${MAX_ATTEMPTS - 1})`, messageId: pendingAssistantId };
+                            return updated;
+                        });
+                        await new Promise((r) => setTimeout(r, 1000));
+                    }
+                }
+            }
 
             if (!chatRes.ok) {
                 if (chatRes.status === 429) {
@@ -992,7 +1008,7 @@ export default function ChatPage() {
                                 !userLoading && (
                                     <div className="px-3 pb-3 pt-2">
                                         <Link
-                                            href="/login"
+                                            href="/register"
                                             className={`flex w-full items-center justify-center rounded-xl border border-white/10 bg-white/5 text-sm font-medium text-slate-200 ${
                                                 isSidebarExpanded ? 'gap-2 px-4 py-3' : 'px-0 py-3'
                                             }`}

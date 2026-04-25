@@ -1,0 +1,1018 @@
+{
+  "university": "Metropolitan University, Sylhet",
+  "source": "https://www.metrouni.edu.bd",
+  "departments": [
+    {
+      "department": "Computer Science & Engineering",
+      "faculty": [
+        {
+          "name": "Professor Dr. Yousuf M Islam",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699243947.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/15"
+        },
+        {
+          "name": "Professor Dr. Md. Nazrul Haque Chowdhury",
+          "designation": "Dean, School of Science & Technology",
+          "image_url": "https://www.metrouni.edu.bd/images/1699243993.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/171"
+        },
+        {
+          "name": "Choudhury M. Mukammel Wahid",
+          "designation": "Professor, Department of CSE",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244066.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/172"
+        },
+        {
+          "name": "Md. Mahfujul Hasan",
+          "designation": "Associate Professor, Head Dept. of CSE",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244111.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/173",
+          "email": "mahfujul@metrouni.edu.bd",
+          "contact": "01717472438"
+        },
+        {
+          "name": "Khudeja Khanom Anwara",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1715356490.PNG",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/180",
+          "email": "anwara@metrouni.edu.bd",
+          "contact": "01719304425"
+        },
+        {
+          "name": "Md. Shamihul Islam Khan Limon",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244626.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/181",
+          "email": "limon@metrouni.edu.bd",
+          "contact": "01767563781"
+        },
+        {
+          "name": "Nabila Jannat Rifa",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244665.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/182",
+          "email": "rifa@metrouni.edu.bd",
+          "contact": "01795664229"
+        },
+        {
+          "name": "Nasif Istiak Remon",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244690.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/183",
+          "email": "nasif@metrouni.edu.bd",
+          "contact": "01812034456"
+        },
+        {
+          "name": "Rishad Amin Pulok",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699244763.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/184",
+          "email": "pulok@metrouni.edu.bd",
+          "contact": "01519604481"
+        },
+        {
+          "name": "Iftekhar Hussain",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699245564.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/185",
+          "email": "hussain@metrouni.edu.bd",
+          "contact": "01635339197"
+        },
+        {
+          "name": "Salma Akther",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699245534.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/186",
+          "email": "salma@metrouni.edu.bd",
+          "contact": "01717653414"
+        },
+        {
+          "name": "Abu Jafar Md Jakaria",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699245600.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/187",
+          "email": "jakaria@metrouni.edu.bd",
+          "contact": "01624479445"
+        },
+        {
+          "name": "Mayami Das Purkayastha Purba",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699245645.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/189",
+          "email": "purba@metrouni.edu.bd",
+          "contact": "01796624353"
+        },
+        {
+          "name": "Bushra Azmat Hussain",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248158.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/192",
+          "email": "bushra@metrouni.edu.bd",
+          "contact": "01778590991"
+        },
+        {
+          "name": "Ruma Das",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248293.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/194"
+        },
+        {
+          "name": "Md. Fahmidur Rahman Sakib",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248380.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/195",
+          "email": "fahmidur@metrouni.edu.bd",
+          "contact": "01676147665"
+        },
+        {
+          "name": "Shrabanti Chowdhury",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1728111524.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/345",
+          "email": "shrabanti@metrouni.edu.bd",
+          "contact": "01793676664"
+        },
+        {
+          "name": "Moshiur Ahmed",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248573.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/201"
+        },
+        {
+          "name": "Samia Rahman Rima",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941597.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/307",
+          "email": "rima@metrouni.edu.bd",
+          "contact": "01317920101"
+        },
+        {
+          "name": "Ruhul Amin",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941656.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/308",
+          "email": "ruhul@metrouni.edu.bd",
+          "contact": "01784917942"
+        },
+        {
+          "name": "Tajbin Jahan",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941837.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/311",
+          "email": "tajbin@metrouni.edu.bd",
+          "contact": "01791634950"
+        },
+        {
+          "name": "Nowshin Sharmin",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941893.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/312",
+          "email": "nowshin@metrouni.edu.bd",
+          "contact": "01601504212"
+        },
+        {
+          "name": "Dewan Ahmed Muhtasim",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1726142033.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/344"
+        },
+        {
+          "name": "Aisha Hayder Chowdhury",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725982545.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/335",
+          "email": "aisha@metrouni.edu.bd",
+          "contact": "01737022899"
+        },
+        {
+          "name": "Plabon Talukder",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725982768.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/339",
+          "email": "plabon@metrouni.edu.bd",
+          "contact": "01734815731"
+        },
+        {
+          "name": "Abdullah Al Masud",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725983208.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/342",
+          "email": "masud@metrouni.edu.bd",
+          "contact": "01826427855"
+        },
+        {
+          "name": "Golam Mostofa Naeem",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941740.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/309",
+          "email": "mostofa@metrouni.edu.bd",
+          "contact": "01931658248"
+        },
+        {
+          "name": "Abdul Wadud Shakib",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708941780.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/310"
+        },
+        {
+          "name": "Raisa Fairooz",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1736759603.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/384",
+          "email": "raisa@metrouni.edu.bd",
+          "contact": "01783382835"
+        },
+        {
+          "name": "Farhana Akter",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725983249.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/343",
+          "email": "farhanaakter@metrouni.edu.bd",
+          "contact": "01787514779"
+        },
+        {
+          "name": "Ms. Ishrar Nazah Chowdhury",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1760862145.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/414",
+          "email": "ishrar@metrouni.edu.bd",
+          "contact": "01778580224"
+        },
+        {
+          "name": "Akhlak Uz Zaman Ashik",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248683.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/204"
+        },
+        {
+          "name": "Sakhawat Hossain Saimon",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248705.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/205"
+        },
+        {
+          "name": "Mst. Shapna Akter",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1753207274.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/207"
+        },
+        {
+          "name": "Mahdi Islam",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248863.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/208"
+        },
+        {
+          "name": "Abdullah Alavi",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248894.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/209"
+        },
+        {
+          "name": "Jakaria Hossain",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699248935.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-computer-science-engineering/210"
+        }
+      ]
+    },
+    {
+      "department": "Software Engineering",
+      "faculty": [
+        {
+          "name": "Professor Dr. Md. Nazrul Haque Chowdhury",
+          "designation": "Professor & Dean",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259569.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/211"
+        },
+        {
+          "name": "Dr Abdul Rob",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1759838571.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/404"
+        },
+        {
+          "name": "Fuad Ahmed",
+          "designation": "Professor & Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259586.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/212"
+        },
+        {
+          "name": "Nazia Sultana Chowdhury",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259607.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/214"
+        },
+        {
+          "name": "Wadia Iqbal Chowdhury",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259597.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/213"
+        },
+        {
+          "name": "Rina Paul",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259619.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/215",
+          "email": "rina@metrouni.edu.bd",
+          "contact": "01319931147"
+        },
+        {
+          "name": "Al Akram Chowdhury",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259630.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/216"
+        },
+        {
+          "name": "Iffat Ahmed Chowdhury Nahid",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708942850.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/317"
+        },
+        {
+          "name": "Nasrin Akter Tanya",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725983153.JPG",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/341"
+        },
+        {
+          "name": "Nazia Hassan",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1772347053.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/440"
+        },
+        {
+          "name": "Dhiman Dash",
+          "designation": "Adjunct Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1739866097.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/390"
+        },
+        {
+          "name": "Lukman Hussain Nakib",
+          "designation": "Adjunct Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1739866235.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/391"
+        },
+        {
+          "name": "Mridul Kanti Bhattacharjee",
+          "designation": "Adjunct Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1769930443.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-software-engineering/439"
+        }
+      ]
+    },
+    {
+      "department": "Data Science",
+      "faculty": [
+        {
+          "name": "Md. Mushtaq Shahriyar Rafee",
+          "designation": "Assistant Professor and Head (In-charge)",
+          "image_url": "https://www.metrouni.edu.bd/images/1764832892.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-data-science/427",
+          "email": "rafee@metrouni.edu.bd",
+          "contact": "01785391622"
+        },
+        {
+          "name": "Archi Arani Basak",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1764833023.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-data-science/428",
+          "email": "archi@metrouni.edu.bd",
+          "contact": "01919141128"
+        },
+        {
+          "name": "Muhammad Muzammil",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1764833043.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-data-science/429",
+          "email": "muzammil@metrouni.edu.bd",
+          "contact": "01783891621"
+        },
+        {
+          "name": "Nazrul Islam",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1768196311.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-data-science/430",
+          "email": "nazrul@metrouni.edu.bd",
+          "contact": "01581181269"
+        }
+      ]
+    },
+    {
+      "department": "Electrical & Electronic Engineering",
+      "faculty": [
+        {
+          "name": "Professor Dr. Md. Nazrul Haque Chowdhury",
+          "designation": "Professor & Dean",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259829.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/218"
+        },
+        {
+          "name": "Dr Abdul Hoque",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1759838893.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/405"
+        },
+        {
+          "name": "Md. Rahmot Ullah",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259852.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/220"
+        },
+        {
+          "name": "Safwan Uddin Ahmed",
+          "designation": "Assistant Professor & Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1756967648.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/401",
+          "email": "safwan@metrouni.edu.bd",
+          "contact": "01717019768"
+        },
+        {
+          "name": "Md Anwarul Kawchar",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260043.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/222"
+        },
+        {
+          "name": "Arpita Mazumder",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260103.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/224",
+          "email": "mazumder@metrouni.edu.bd",
+          "contact": "01770613377"
+        },
+        {
+          "name": "Md Hasanur Rahman Sohag",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260128.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/225"
+        },
+        {
+          "name": "Sadman Sakib",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260154.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/226",
+          "email": "sakib@metrouni.edu.bd",
+          "contact": "01868889767"
+        },
+        {
+          "name": "Mahim Ahmed",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260171.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/227",
+          "email": "mahim@metrouni.edu.bd",
+          "contact": "01780872828"
+        },
+        {
+          "name": "Md. Fardin Ahasan Maraz",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1714902495.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/228"
+        },
+        {
+          "name": "Md. Shadman Shakib",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708942093.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/313",
+          "email": "shadman@metrouni.edu.bd",
+          "contact": "01865393928"
+        },
+        {
+          "name": "Ahmed Afif Rafsan",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708942208.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/315",
+          "email": "rafsan@metrouni.edu.bd",
+          "contact": "01796269337"
+        },
+        {
+          "name": "Ahmed Istiakur Rahman",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708942247.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/316",
+          "email": "istiakur@metrouni.edu.bd",
+          "contact": "01609922418"
+        },
+        {
+          "name": "Md Tawsifur Rahman",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725982672.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/337",
+          "email": "tawsifur@metrouni.edu.bd",
+          "contact": "01957086205"
+        },
+        {
+          "name": "Fahim Ashraf",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725982734.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/338"
+        },
+        {
+          "name": "Md. Imam Mahdi",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1768671449.JPEG",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/392",
+          "email": "imammahdi@metrouni.edu.bd",
+          "contact": "01626779888"
+        },
+        {
+          "name": "Md. Shahriar Sadid",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260417.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/233"
+        },
+        {
+          "name": "Anika Tabassum",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1746722863.JPG",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/393",
+          "email": "anika@metrouni.edu.bd",
+          "contact": "01339038238"
+        },
+        {
+          "name": "Dr. Mohammed Jahirul Islam, PEng",
+          "designation": "Professor (Guest Teacher)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260337.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/229"
+        },
+        {
+          "name": "Nawshad Ahmed Chowdhury",
+          "designation": "Associate Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259841.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/219"
+        },
+        {
+          "name": "Surajit Sinha",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260351.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/230"
+        },
+        {
+          "name": "Musarrat Tabassum",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260397.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/232"
+        },
+        {
+          "name": "Bishal Das",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699260432.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/234"
+        },
+        {
+          "name": "Nafisa Ahmed",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699259855.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/221"
+        },
+        {
+          "name": "Abdullah Al Numan",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1736842095.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-electrical-electronic-engineering/386"
+        }
+      ]
+    },
+    {
+      "department": "Business Administration",
+      "faculty": [
+        {
+          "name": "Professor Md. Taher Billal Khalifa Ph D",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699356817.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/276"
+        },
+        {
+          "name": "Professor Dr. Mohammad Jamal Uddin",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1712177640.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/277"
+        },
+        {
+          "name": "Dr. Tofayel Ahmed",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1728986282.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/346"
+        },
+        {
+          "name": "Dr. Md. Masud Rana",
+          "designation": "Professor and Dean",
+          "image_url": "https://www.metrouni.edu.bd/images/1734979152.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/278"
+        },
+        {
+          "name": "Debashish Roy",
+          "designation": "Associate Professor and Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1699356867.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/279"
+        },
+        {
+          "name": "Md. Emran Uddin",
+          "designation": "Associate Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699356882.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/280"
+        },
+        {
+          "name": "Mohammad Kamrul Ahsan",
+          "designation": "Associate Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1768213402.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/281"
+        },
+        {
+          "name": "Md. Ziaur Rahman",
+          "designation": "Associate Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1768213429.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/282"
+        },
+        {
+          "name": "Md. Alaul Haque",
+          "designation": "Associate Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1726749188.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/284"
+        },
+        {
+          "name": "Nishath Anjum",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1768213537.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/285"
+        },
+        {
+          "name": "Md. Afsarul Islam",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1768213878.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/287"
+        },
+        {
+          "name": "Jace Saha",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1714413157.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/288"
+        },
+        {
+          "name": "Dr. Md Rezaul Haque",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1729934452.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/347"
+        },
+        {
+          "name": "Ashikur Rahman",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1706973447.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/302"
+        },
+        {
+          "name": "Zarin Tasnim Ahmed Mahi",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708942893.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/318",
+          "email": "mahi@metrouni.edu.bd",
+          "contact": "01743432964"
+        },
+        {
+          "name": "Fahim Shahriar",
+          "designation": "Adjunct Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1769839812.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/438"
+        },
+        {
+          "name": "Mohammad Asrafuzzaman Yazdani Razu",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699357402.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/293"
+        },
+        {
+          "name": "Chowdhury Mujaddid Ahmed",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1706973669.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/303"
+        },
+        {
+          "name": "Dr. Md. Monirul Islam",
+          "designation": "Professor (Guest Faculty)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699357473.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/295"
+        },
+        {
+          "name": "Dr. Mohammad Shahidul Hoque",
+          "designation": "Professor (Guest Faculty)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699357504.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/296"
+        },
+        {
+          "name": "Dr. Fazle Elahi Md. Faisal",
+          "designation": "Professor (Guest Faculty)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699357539.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/297"
+        },
+        {
+          "name": "Dr. Mohammad Mizenur Rahman",
+          "designation": "Professor (Guest Faculty)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699357568.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-business-administration/298"
+        }
+      ]
+    },
+    {
+      "department": "Economics",
+      "faculty": [
+        {
+          "name": "Dr. Toufique Rahman Chowdhury",
+          "designation": "Professor (Honorary)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261421.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/235"
+        },
+        {
+          "name": "Md. Abdul Aziz",
+          "designation": "Professor Emeritus",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261431.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/236"
+        },
+        {
+          "name": "Dr. Mohammad Jamal Uddin",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1712177769.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/239"
+        },
+        {
+          "name": "Dr. Umme Humayara Manni",
+          "designation": "Associate Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261525.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/241"
+        },
+        {
+          "name": "Md. Gulam Mokta Dhir",
+          "designation": "Associate Professor and Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1704639718.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/301"
+        },
+        {
+          "name": "Shah Mohammad Hamza Anwar",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261501.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/240"
+        },
+        {
+          "name": "Md Amzad Hossain",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1734006011.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/242"
+        },
+        {
+          "name": "Nourush Jahan",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261603.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/243"
+        },
+        {
+          "name": "Md Imran Hossain Milon",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1736842225.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/387"
+        },
+        {
+          "name": "Muhtasim Fuad Ahmed",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1761024668.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/417",
+          "contact": "01779779973"
+        },
+        {
+          "name": "Dr. Muntaha Rakib",
+          "designation": "Professor (Guest Faculty)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261651.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/244"
+        },
+        {
+          "name": "Beauty Nahida Sultana",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261677.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/245"
+        },
+        {
+          "name": "Sharmin Akter",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699261710.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-economics/246"
+        }
+      ]
+    },
+    {
+      "department": "Law & Justice",
+      "faculty": [
+        {
+          "name": "Barrister Md. Arash Ali",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355331.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/265"
+        },
+        {
+          "name": "Professor Sheikh Ashrafur Rahaman",
+          "designation": "Dean, School of Law",
+          "image_url": "https://www.metrouni.edu.bd/images/1731259726.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/266"
+        },
+        {
+          "name": "Dr. M. Z. Ashraful",
+          "designation": "Associate Professor and Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355373.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/268"
+        },
+        {
+          "name": "Md. Sher-E-Alam",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355387.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/269"
+        },
+        {
+          "name": "Fatema Imrose",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355400.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/270"
+        },
+        {
+          "name": "Mitu Akther",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355413.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/271"
+        },
+        {
+          "name": "Taspiea Mostofa",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355424.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/272"
+        },
+        {
+          "name": "Syeda Nazmur Siha Muna",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355437.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/273"
+        },
+        {
+          "name": "Md. Sojibur Rahman",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1711994993.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/305"
+        },
+        {
+          "name": "Ms. Mahmuda Sultana",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1708592337.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/306"
+        },
+        {
+          "name": "Md. Sariful Islam",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1746722937.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/394"
+        },
+        {
+          "name": "Md. Ohidur Rahman Choudhury",
+          "designation": "Guest Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355751.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/274"
+        },
+        {
+          "name": "Barrister Riashad Azim",
+          "designation": "Guest Faculty",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355776.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/275"
+        },
+        {
+          "name": "Gazi Saiful Hasan",
+          "designation": "Associate Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355358.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-law-justice/267"
+        }
+      ]
+    },
+    {
+      "department": "English",
+      "faculty": [
+        {
+          "name": "Professor Suresh Ranjan Basak PhD",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354352.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/247"
+        },
+        {
+          "name": "Professor Mohammad Ishrat Ibne Ismail",
+          "designation": "Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1768203983.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/415"
+        },
+        {
+          "name": "Dr. Mohammad Mostak Ahmed",
+          "designation": "Associate Professor and Dean, School of Humanities & Social Sciences",
+          "image_url": "https://www.metrouni.edu.bd/images/1761024749.jpeg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/416"
+        },
+        {
+          "name": "Anik Biswas",
+          "designation": "Associate Professor and Head",
+          "image_url": "https://www.metrouni.edu.bd/images/1715752776.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/260"
+        },
+        {
+          "name": "Sanjida Chowdhury",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354413.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/250"
+        },
+        {
+          "name": "Syed Nakib Sadi",
+          "designation": "Assistant Professor",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354477.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/253"
+        },
+        {
+          "name": "Abdullah Al Mashud",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354453.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/252",
+          "email": "mashud@metrouni.edu.bd",
+          "contact": "01816226494"
+        },
+        {
+          "name": "Farhana Khanom Joly",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354542.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/255"
+        },
+        {
+          "name": "Abu Yousuf Musa",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1725982815.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/340",
+          "email": "musa@metrouni.edu.bd"
+        },
+        {
+          "name": "Noshin Tabassum",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1736759796.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/385"
+        },
+        {
+          "name": "S K Shahriar",
+          "designation": "Lecturer",
+          "image_url": "https://www.metrouni.edu.bd/images/1753692040.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/399"
+        },
+        {
+          "name": "Nahida Sarker Nijhum",
+          "designation": "Teaching Assistant",
+          "image_url": "https://www.metrouni.edu.bd/images/1753692231.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/400"
+        },
+        {
+          "name": "Snigdha Das",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354802.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/261"
+        },
+        {
+          "name": "Golam Rabbani",
+          "designation": "Assistant Professor (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354434.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/251"
+        },
+        {
+          "name": "Tasnuva Tabassum",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354821.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/262"
+        },
+        {
+          "name": "Muhammad Shamsul Islam",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354844.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/263"
+        },
+        {
+          "name": "Md Mohi Uddin",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699355025.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/264"
+        },
+        {
+          "name": "Sanjida Kalam",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354711.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/256"
+        },
+        {
+          "name": "Tanjim Nishat Farmi",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1699354766.jpg",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/259"
+        },
+        {
+          "name": "Mouni Battacharjee",
+          "designation": "Lecturer (Study Leave)",
+          "image_url": "https://www.metrouni.edu.bd/images/1713280476.png",
+          "profile_url": "https://www.metrouni.edu.bd/sites/university/faculty-members/department-of-english/320"
+        }
+      ]
+    }
+  ]
+}
